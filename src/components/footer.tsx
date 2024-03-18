@@ -46,7 +46,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className='text-center'>
+            <div className='text-center mt-8'>
                 <p>Design by <a href="https://www.baraus.dev/" target='_blank'>@Baraus</a></p>
                 <p>Copyright © 2024, Code Tower</p>
             </div>
