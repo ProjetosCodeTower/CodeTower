@@ -1,7 +1,14 @@
 import React from 'react'
 
-export const ServiceIcon = () => {
+interface ServiceIconProps {
+    children: React.ReactNode,
+    color: string,
+}
+
+export const ServiceIcon = ({ children, color }: ServiceIconProps) => {
     return (
-        <div>service-icon</div>
+        <div className={`flex items-center justify-around w-16 h-16 rounded-full p-5 ${color}`}>
+            {children}
+        </div>
     )
 }
