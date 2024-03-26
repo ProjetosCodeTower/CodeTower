@@ -3,9 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
   font-family: 'Poppins', sans-serif;
-}
+} */
  
 @media (min-width: 768px) {
   .projects-grid div:nth-child(1) {
