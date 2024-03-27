@@ -28,16 +28,16 @@ export default function Home() {
       <section id="portfolio" className="py-28 bg-[url('/Background.svg')] bg-cover">
         <Portfolio />
       </section>
-      <section id="artigos" className="h-full bg-[url('/Background-white.svg')] bg-cover -mt-20 pt-32 z-10">
+      <section id="artigos" className="h-full bg-[url('/Background-white.svg')] bg-cover -mt-20 py-32 z-10">
         <Artigos />
       </section>
-      <section id="sobre" className="h-full bg-[url('/Background-white.svg')] bg-cover -mt-20 pt-32 z-10">
+      <section id="sobre" className="h-full bg-[url('/Background-sobre.svg')] bg-cover pt-32 z-10">
         <Sobre />
+        <div id="membros" className="py-32 z-10">
+          <Membros />
+        </div>
       </section>
-      <section id="membros" className="bg-[url('/Background-white.svg')] bg-cover py-32 z-10">
-        <Membros />
-      </section>
-      <section id="contato" className="py-32">
+      <section id="contato" className="bg-[url('/Background-contato.svg')] bg-cover -mt-20 py-32">
         <Contato />
       </section>
     </main>
