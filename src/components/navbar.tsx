@@ -9,7 +9,7 @@ import { Menu } from 'lucide-react'
 
 export const Navbar = () => {
     return (
-        <div className='w-full fixed flex items-center justify-around bg-white/80 shadow backdrop-blur-sm backdrop-filter'>
+        <div className='w-full fixed flex items-center z-20 justify-around bg-white/80 shadow backdrop-blur-sm backdrop-filter'>
             <nav className='w-screen flex justify-between z-20 items-center py-4 px-10 text-dark'>
                 <div className='flex text-center items-center justify-center'>
                     <Image
@@ -44,7 +44,7 @@ export const Navbar = () => {
                     <SheetTrigger asChild className='flex lg:hidden'>
                         <Button variant="outline" className='border-none'><Menu /></Button>
                     </SheetTrigger>
-                    <SheetContent className='flex lg:hidden justify-center'>
+                    <SheetContent className='flex lg:hidden justify-center bg-white'>
                         <ul className='flex flex-col items-center gap-4 text-xl mt-6'>
                             <li>
                                 <SheetClose asChild>
