@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '../ui/card'
 import { InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
+import Image from 'next/image'
 
 export const Artigos = () => {
     return (
@@ -11,7 +12,7 @@ export const Artigos = () => {
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center px-8">
                 <Card className="border-none flex-1">
                     <CardHeader>
-                        <img className="mb-4 h-[290px] w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
+                        <Image width={0} height={0} sizes='100vw' className="mb-4 h-[290px] w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
                         <CardTitle className="text-sm font-bold uppercase text-primary">Titulo</CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -23,7 +24,7 @@ export const Artigos = () => {
                 </Card>
                 <Card className="border-none flex-1">
                     <CardHeader>
-                        <img className="mb-4 h-64 w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
+                        <Image width={0} height={0} sizes='100vw' className="mb-4 h-64 w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
                         <CardTitle className="text-sm font-bold uppercase text-primary">Titulo</CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -35,7 +36,7 @@ export const Artigos = () => {
                 </Card>
                 <Card className="border-none flex-1">
                     <CardHeader>
-                        <img className="mb-4 h-64 w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
+                        <Image width={0} height={0} sizes='100vw' className="mb-4 h-64 w-full object-cover lg:h-48" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Membro 1 - Presidente" alt="Membro 1 - Presidente" />
                         <CardTitle className="text-sm font-bold uppercase text-primary">Titulo</CardTitle>
                     </CardHeader>
                     <CardContent>
