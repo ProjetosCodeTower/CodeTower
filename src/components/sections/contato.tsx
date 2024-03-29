@@ -18,12 +18,12 @@ export const Contato = () => {
                     </div>
                     <div className="space-y-2">
                         <p className="font-semibold tracking-wide text-primary">Telefone</p>
-                        <p className="font-light">contato@codestacker.com</p>
+                        <p className="font-light">contato@codetower.com.br</p>
                     </div>
                     <div className="space-y-2">
                         <p className="font-semibold tracking-wide text-primary">Email</p>
                         <p className="font-light">
-                            <a className="hover:underline" href="mailto:">contato@codestacker.com</a>
+                            <a className="hover:underline" href="mailto:">contato@codetower.com.br</a>
                         </p>
                     </div> */}
                 </div>
@@ -79,12 +79,12 @@ export const Contato = () => {
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Telefone</p>
-                    <p className="font-light">contato@codestacker.com</p>
+                    <p className="font-light">contato@codetower.com.br</p>
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Email</p>
                     <p className="font-light">
-                        <a className="hover:underline" href="mailto:">contato@codestacker.com</a>
+                        <a className="hover:underline" href="mailto:">contato@codetower.com.br</a>
                     </p>
                 </div>
             </div>
