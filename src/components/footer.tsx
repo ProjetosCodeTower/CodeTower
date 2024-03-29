@@ -19,7 +19,7 @@ export const Footer = () => {
                         <p className='ml-2 inline align-middle text-3xl uppercase'>CODE <span className='font-bold'>TOWER</span></p>
                     </div>
                     <p className='my-4'>
-                        A Code Tower é uma empresa sem fins lucrativos, visando fomentar o empreendedorismo no Brasil através de projetos de tecnologia da informação de alta qualidade e custo abaixo do mercado. Todo o valor ganho é revertido para a formação profissional dos nossos membros e alunos do Instituto Nacional.
+                        A Code Tower é uma empresa sem fins lucrativos, visando fomentar o empreendedorismo no Brasil através de projetos de tecnologia da informação de alta qualidade e custo abaixo do mercado. Todo o valor ganho é revertido para a formação profissional dos nossos membros e alunos do Instituto Federal.
                     </p>
                     <p>
                         CNPJ: 39.895.766/0001-17
