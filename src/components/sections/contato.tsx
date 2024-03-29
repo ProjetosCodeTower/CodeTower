@@ -72,14 +72,16 @@ export const Contato = () => {
                 </form>
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-start">
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Endereço</p>
-                    <p className="font-light">Rua 1, 1 - Bairro, Cidade - Estado</p>
+                    <p className="font-light">Av. Pedro Ludovico, s/n
+                        Residencial Reny Cury, Anápolis
+                        GO, 75131-457 - Bloco 400</p>
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Telefone</p>
-                    <p className="font-light">contato@codetower.com.br</p>
+                    <p className="font-light">(62)99953-5210</p>
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Email</p>

@@ -19,11 +19,11 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/carlos.curcino/" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/carloscurcino" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -39,7 +39,7 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/heitor_brrt" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
@@ -52,14 +52,14 @@ export const Membros = () => {
                 <Card className="border-none flex-1">
                     <CardHeader>
                         <Image width={0} height={0} sizes='100vw' className="mb-4 h-64 w-full rounded-lg object-cover lg:h-48" src="/membros/admfin.png" title="Membro 3 - Administrativo financeiro" alt="Membro 3 - Administrativo financeiro" />
-                        <CardTitle className="text-sm font-bold uppercase text-tertiary">Administrativo Financeiro</CardTitle>
+                        <CardTitle className="text-sm font-bold uppercase text-tertiary">Adm Financeiro</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <p>Vinicius Oliveira</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/member1" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
@@ -79,7 +79,7 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/member1" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
@@ -99,7 +99,7 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/member1" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
@@ -119,7 +119,7 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/member1" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
@@ -139,7 +139,7 @@ export const Membros = () => {
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/member1" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/member1" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
