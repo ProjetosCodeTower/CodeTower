@@ -31,7 +31,7 @@ export const Servicos = () => {
                     <Cloud color="white" />
                 </ServiceIcon>
                 <p className="uppercase">Hospedagem e Manutenção</p>
-                <p>Oferecemos hospedagem e manutenção para seu site ou sistema web.</p>
+                <p>Oferecemos um serviço completo de hospedagem e manutenção para o seu site ou sistema web, garantindo que sua presença online seja sempre confiável e eficiente. Seja você um profissional autônomo, uma pequena empresa em crescimento ou uma grande corporação, estamos aqui para atender às suas necessidades com excelência.</p>
             </span>
         </div>
     )
