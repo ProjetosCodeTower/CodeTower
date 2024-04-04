@@ -28,7 +28,7 @@ export default function Home() {
       <section id="portfolio" className="py-28 bg-[url('/Background.svg')] bg-cover">
         <Portfolio />
       </section>
-      <section id="artigos" className="h-full bg-[url('/Background-white.svg')] bg-cover -mt-20 py-32 z-10">
+      <section id="blog" className="h-full bg-[url('/Background-white.svg')] bg-cover -mt-20 py-32 z-10">
         <Artigos />
       </section>
       <section id="sobre" className="h-full bg-[url('/Background-sobre.svg')] bg-cover pt-32 z-10">

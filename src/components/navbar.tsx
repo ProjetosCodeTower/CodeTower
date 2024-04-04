@@ -33,6 +33,9 @@ export const Navbar = () => {
                         <a href="#portfolio">Portfólio</a>
                     </li>
                     <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
                         <a href="#sobre">Sobre</a>
                     </li>
                     <li>
@@ -59,6 +62,11 @@ export const Navbar = () => {
                             <li>
                                 <SheetClose asChild>
                                     <a href="#portfolio">Portfólio</a>
+                                </SheetClose>
+                            </li>
+                            <li>
+                                <SheetClose asChild>
+                                    <a href="#blog">Blog</a>
                                 </SheetClose>
                             </li>
                             <li>
