@@ -5,6 +5,7 @@ import Image from 'next/image'
 import axios from 'axios'
 import Link from 'next/link'
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
+import { Button } from '../ui/button'
 
 interface Blog {
     id: number,
@@ -46,7 +47,7 @@ export const Artigos = () => {
         return `${dia} de ${mes} de ${ano}`;
     }
     return (
-        <div className="container">
+        <div className="container flex flex-col items-center">
             <p className="mb-2 text-center text-sm font-semibold text-primary">Atualizações e Novidades</p>
             <h3 className="mb-8 text-center text-2xl">Artigos recentes</h3>
 
@@ -80,6 +81,9 @@ export const Artigos = () => {
                     <p className='text-center'>Não há postagens ainda.</p>
                 )}
             </div>
+            {blogs.length > 0 && (
+                <a href="https://dev.to/codetower" target='_blank'><Button className='text-white font-bold mt-12'>Ler mais</Button></a>
+            )}
         </div>
     )
 }
