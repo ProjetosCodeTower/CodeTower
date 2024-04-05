@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="pt-BR">
-      <body className={poppins.className}>
+      <body>
         <div className="flex h-screen flex-col">
           <Navbar />
           <div className="flex-1">

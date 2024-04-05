@@ -9,9 +9,9 @@ import { Menu } from 'lucide-react'
 
 export const Navbar = () => {
     return (
-        <div className='w-full fixed flex items-center z-20 justify-around bg-white/80 shadow backdrop-blur-sm backdrop-filter'>
+        <div className='w-full fixed flex items-center z-20 justify-around bg-white shadow backdrop-blur-sm backdrop-filter'>
             <nav className='w-screen flex justify-between z-20 items-center py-4 px-10 text-dark'>
-                <div className='flex text-center items-center justify-center'>
+                <a href='/' className='flex text-center items-center justify-center'>
                     <Image
                         src={"/logo.png"}
                         alt='Code Tower Logo Photo'
@@ -20,8 +20,8 @@ export const Navbar = () => {
                         height={0}
                         sizes='100vw'
                     />
-                    <p className='inline align-middle text-2xl font-light uppercase'>CODE <span className='font-bold'>TOWER</span></p>
-                </div>
+                    <p className='inline align-middle text-2xl font-light opacity-90 uppercase'>CODE <span className='font-bold text-black'>TOWER</span></p>
+                </a>
                 <ul className='hidden lg:flex items-center justify-between gap-4'>
                     <li>
                         <a href="#home">Home</a>
