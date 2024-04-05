@@ -63,7 +63,7 @@ export const Artigos = () => {
                                 <CardContent>
                                     <p className='text-justify'>{blog.description}</p>
                                 </CardContent>
-                                <CardFooter className='flex justify-between items-center'>
+                                <CardFooter className='flex justify-between items-center pb-2'>
                                     <div className='flex items-center justify-center gap-1'>
                                         <Avatar>
                                             <AvatarImage src={blog.user.profile_image ?? "https://github.com/shadcn.png"} alt="@shadcn" />
