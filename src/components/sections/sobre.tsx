@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export const Sobre = () => {
     return (
-        <div className="container flex max-md:flex-col">
-            <div data-aos="fade-up" className="aos-init aos-animate w-full px-10">
+        <div data-aos="fade-right" className="container flex max-md:flex-col">
+            <div className="aos-init aos-animate w-full px-10">
                 <p className="mb-2 text-sm font-semibold text-primary">Sobre nós</p>
                 <h3 className="mb-8 text-2xl">Somos a primeira empresa júnior do IFG</h3>
                 <p className="text font-light">A Code Tower é uma empresa sem fins lucrativos, visando fomentar o empreendedorismo no Brasil através de projetos de tecnologia da informação de alta qualidade e custo abaixo do mercado. Todo o valor ganho é revertido para a formação profissional dos nossos membros e alunos do Instituto Federal.</p>

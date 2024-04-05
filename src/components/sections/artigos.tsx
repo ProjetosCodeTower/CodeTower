@@ -51,7 +51,7 @@ export const Artigos = () => {
             <p className="mb-2 text-center text-sm font-semibold text-primary">Atualizações e Novidades</p>
             <h3 className="mb-8 text-center text-2xl">Artigos recentes</h3>
 
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 items-stretch justify-center px-8">
+            <div data-aos="zoom-in" className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 items-stretch justify-center px-8">
                 {blogs.length > 0 ? (
                     blogs.map((blog) => (
                         <a key={blog.id} href={blog.url} target="_blank">
