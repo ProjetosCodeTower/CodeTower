@@ -78,7 +78,7 @@ export const Artigos = () => {
                         </a>
                     ))
                 ) : (
-                    <p className='text-center'>Não há postagens ainda.</p>
+                    <p className='w-full text-center'>Não há postagens ainda.</p>
                 )}
             </div>
             {blogs.length > 0 && (
