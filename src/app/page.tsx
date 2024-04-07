@@ -16,7 +16,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <section data-aos="fade-in" id="home" className="h-screen flex flex-col items-center justify-center">
         <Hero />
       </section>
