@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <section data-aos="fade-in" data-aos-duration="1000" id="home" className="h-screen flex flex-col items-center justify-center">
+      <section data-aos="fade-in" id="home" className="h-screen flex flex-col items-center justify-center">
         <Hero />
       </section>
       <section id="servicos" className="-mt-8 lg:-mt-16 pt-32 flex items-center justify-start">
