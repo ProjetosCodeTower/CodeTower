@@ -4,24 +4,28 @@ import { fetchHygraphQuery } from '@/services/hygraph-query'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
+
+const colors = ['primary', 'secondary', 'tertiary', 'quaternary'];
+
 export const getProjectsData = async (): Promise<Project[]> => {
     const { projects } = await fetchHygraphQuery(`
-        query Projects {
-            projects {
-                createdAt
-                data
-                descricao
-                id
-                nomeDoProjeto
-                publishedAt
-                slug
-                updatedAt
-                tipoDeProjeto
-                imagem {
-                    url
-                }
-            }
+    query Projects {
+        projects {
+          createdAt
+          data
+          descricao
+          id
+          nomeDoProjeto
+          publishedAt
+          slug
+          updatedAt
+          tipoDeProjeto
+          imagem {
+            url
+          }
+          demoUrl
         }
+      }
     `);
     return projects;
 }
@@ -45,11 +49,13 @@ export const Portfolio = () => {
                 {projects.length > 0 && (
                     projects?.map((project, index) => (
                         <div key={project.id} className="group relative flex h-full flex-1 flex-col overflow-hidden rounded-lg aos-init aos-animate" data-aos={`${index % 4 < 2 ? 'fade-left' : 'fade-right'}`}>
-                            <Image className="h-72 w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" src={project.imagem.url} alt={project.nomeDoProjeto} title={project.nomeDoProjeto} width="640" height="427" loading="lazy" />
-                            <div className="absolute -bottom-full left-0 w-full bg-white/60 px-8 py-4 transition-all duration-300 ease-in-out group-hover:bottom-0">
-                                <span className="text-xs font-semibold uppercase text-primary">{project.tipoDeProjeto}</span>
-                                <p className="text-base">{project.nomeDoProjeto}</p><span className="text-gray text-xs uppercase">{project.data}</span>
-                            </div>
+                            <a href={project.demoUrl} target='_blank'>
+                                <Image className="h-72 w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" src={project.imagem.url} alt={project.nomeDoProjeto} title={project.nomeDoProjeto} width="640" height="427" loading="lazy" />
+                                <div className="absolute -bottom-full left-0 w-full bg-white/80 px-8 py-4 transition-all duration-300 ease-in-out group-hover:bottom-0">
+                                    <span className={`text-xs font-semibold uppercase text-primary text-${colors[index % colors.length]}`}>{project.tipoDeProjeto}</span>
+                                    <p className="text-base">{project.nomeDoProjeto}</p><span className="text-gray text-xs uppercase">{project.data}</span>
+                                </div>
+                            </a>
                         </div>
                     ))
                 )}

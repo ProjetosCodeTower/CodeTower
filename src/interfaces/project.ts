@@ -14,6 +14,7 @@ export interface Project {
     slug: string;
     updatedAt: string;
     tipoDeProjeto: tipoDeProjeto;
+    demoUrl: string,
     imagem: {
         url: string
     };
