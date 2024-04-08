@@ -12,7 +12,6 @@ export const Artigos = () => {
 
     useEffect(() => {
         axios.get("https://dev.to/api/articles?username=codetower&per_page=1000&per_page=3").then((response) => {
-            console.log(response.data)
             // Limitando a 3 ultimas postagens
             setBlogs(response.data)
         }).catch((error) => console.error(error));
@@ -26,6 +25,19 @@ export const Artigos = () => {
 
         return `${dia} de ${mes} de ${ano}`;
     }
+
+    const getInitials = (name: string) => {
+        const words = name.split(" ");
+
+        let initials = "";
+
+        for (let i = 0; i < words.length; i++) {
+            initials += words[i].charAt(0);
+        }
+
+        return initials.toUpperCase();
+    }
+
     return (
         <div className="container flex flex-col items-center">
             <p className="mb-2 text-center text-sm font-semibold text-primary">Atualizações e Novidades</p>
@@ -46,8 +58,8 @@ export const Artigos = () => {
                                 <CardFooter className='flex justify-between items-center pb-2'>
                                     <div className='flex items-center justify-center gap-1'>
                                         <Avatar>
-                                            <AvatarImage src={blog.user.profile_image ?? "https://github.com/shadcn.png"} alt="@shadcn" />
-                                            <AvatarFallback>CN</AvatarFallback>
+                                            <AvatarImage src={blog.user.profile_image} alt="@shadcn" />
+                                            <AvatarFallback>{getInitials(blog.user.name)}</AvatarFallback>
                                         </Avatar>
                                         <span>{blog.user.name}</span>
                                     </div>
