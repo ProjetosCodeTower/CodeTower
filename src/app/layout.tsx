@@ -9,7 +9,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: '400' })
 
 export const metadata: Metadata = {
   title: "Code Tower",
-  description: "Empresa júnior de desenvolvimento de software",
+  description: "Empresa júnior de desenvolvimento de software do IFG Anápolis. A Code Tower é uma empresa especializada em desenvolver sites e aplicativos que permitam o crescimento de negócios, de forma a aproveitar todo o potencial que a tecnologia traz para o crescimento dos mesmos.",
 };
 
 export default function RootLayout({
