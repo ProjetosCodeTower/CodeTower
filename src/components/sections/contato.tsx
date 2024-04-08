@@ -87,7 +87,7 @@ export const Contato = () => {
                         </div>
                     </div>
 
-                    <Button name='Enviar contato' type='submit' className="font-poppins py-2 shadow hover:opacity-75 bg-dark text-white hover:bg-primary rounded-lg px-6 uppercase lg:px-3" variant="default">Enviar</Button>
+                    <Button name='Enviar contato' title='Enviar contato' type='submit' className="font-poppins py-2 shadow hover:opacity-75 bg-dark text-white hover:bg-primary rounded-lg px-6 uppercase lg:px-3" variant="default">Enviar</Button>
                 </form>
             </div>
 
