@@ -58,7 +58,7 @@ export const Artigos = () => {
                                 <CardFooter className='flex justify-between items-center pb-2'>
                                     <div className='flex items-center justify-center gap-1'>
                                         <Avatar>
-                                            <AvatarImage src={blog.user.profile_image} alt="@shadcn" />
+                                            <AvatarImage src={blog.user.profile_image} alt={`Foto do autor do blog: ${blog.user.name}`} />
                                             <AvatarFallback>{getInitials(blog.user.name)}</AvatarFallback>
                                         </Avatar>
                                         <span>{blog.user.name}</span>
@@ -74,7 +74,7 @@ export const Artigos = () => {
                 )}
             </div>
             {blogs.length > 0 && (
-                <a href="https://dev.to/codetower" target='_blank'><Button className='text-white font-bold mt-12'>Ler mais</Button></a>
+                <a href="https://dev.to/codetower" target='_blank'><Button name='Ler mais artigos' className='text-white font-bold mt-12'>Ler mais</Button></a>
             )}
         </div>
     )

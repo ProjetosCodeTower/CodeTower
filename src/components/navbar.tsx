@@ -45,7 +45,7 @@ export const Navbar = () => {
 
                 <Sheet>
                     <SheetTrigger asChild className='flex lg:hidden'>
-                        <Button variant="outline" className='border-none'><Menu /></Button>
+                        <Button name='Menu' variant="outline" className='border-none'><Menu /></Button>
                     </SheetTrigger>
                     <SheetContent className='flex lg:hidden justify-center bg-white'>
                         <ul className='flex flex-col items-center gap-4 text-xl mt-6'>
