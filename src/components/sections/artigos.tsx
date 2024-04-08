@@ -49,7 +49,7 @@ export const Artigos = () => {
                         <a key={blog.id} href={blog.url} target="_blank">
                             <Card className="border-none flex-1 h-full flex flex-col justify-between">
                                 <CardHeader>
-                                    <Image width={0} height={0} sizes='100vw' className="mb-4 h-[290px] rounded-md w-full object-cover lg:h-48" src={blog.cover_image ?? "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} title={blog.title} alt={"Artigo: " + blog.title} />
+                                    <Image loading='lazy' width={0} height={0} sizes='100vw' className="mb-4 h-[290px] rounded-md w-full object-cover lg:h-48" src={blog.cover_image ?? "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} title={blog.title} alt={"Artigo: " + blog.title} />
                                     <CardTitle className="text-sm font-bold uppercase text-primary">{blog.title}</CardTitle>
                                 </CardHeader>
                                 <CardContent>
