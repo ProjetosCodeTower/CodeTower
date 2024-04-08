@@ -13,6 +13,7 @@ export const Navbar = () => {
             <nav className='w-screen flex justify-between z-20 items-center py-4 px-10 text-dark'>
                 <a href='/' className='flex text-center items-center justify-center'>
                     <Image
+                        priority
                         src={"/logo.png"}
                         alt='Code Tower Logo Photo'
                         className='inline h-14 w-auto align-middle'
