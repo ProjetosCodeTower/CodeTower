@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { Instagram, Linkedin, Mail } from 'lucide-react'
 
 export const Footer = () => {
+
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
         <footer className='w-full bg-[#292D34] py-4 pt-8 text-white'>
             <div className='container mx-auto flex flex-wrap justify-around gap-x-12 lg:flex-row lg:flex-nowrap'>
@@ -48,7 +52,7 @@ export const Footer = () => {
 
             <div className='text-center mt-8'>
                 <p>Design by <a href="https://www.baraus.dev/" target='_blank'>@Baraus</a></p>
-                <p>Copyright © 2024, Code Tower</p>
+                <p>Copyright © {year}, Code Tower</p>
             </div>
         </footer>
     )
