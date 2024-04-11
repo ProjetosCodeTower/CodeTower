@@ -22,7 +22,6 @@ export const Contato = () => {
             telefone: telefone,
             mensagem: mensagem
         };
-        console.log(formData)
         // https://formcarry.com/pricing opção com 50 forms por mês
         axios
             .post("https://getform.io/f/eapdndna",

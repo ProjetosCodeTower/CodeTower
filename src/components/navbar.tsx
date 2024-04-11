@@ -15,7 +15,7 @@ export const Navbar = () => {
                     <Image
                         priority
                         src={"/logo.png"}
-                        alt='Code Tower Logo Photo'
+                        alt='Code Tower Logo'
                         className='inline h-14 w-auto align-middle'
                         width={0}
                         height={0}
