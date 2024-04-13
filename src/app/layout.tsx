@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { WhatsappButton } from "@/components/whatsapp-button";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ subsets: ["latin"], weight: '400' })
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Navbar />
           <div className="flex-1">
             {children}
+            <WhatsappButton />
           </div>
           <Footer />
         </div>
