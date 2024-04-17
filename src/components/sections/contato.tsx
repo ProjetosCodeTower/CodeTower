@@ -95,7 +95,8 @@ export const Contato = () => {
                     <p className="font-semibold tracking-wide text-primary">Endereço</p>
                     <p className="font-light">Av. Pedro Ludovico, s/n
                         Residencial Reny Cury, Anápolis
-                        GO, 75131-457 - Bloco 400</p>
+                        GO, 75131-457 - Bloco 600, segundo andar, ao lado da Multimeios 3 - Sala da Code Tower
+                    </p>
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Telefone</p>
