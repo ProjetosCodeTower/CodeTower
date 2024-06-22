@@ -23,8 +23,9 @@ export const Contato = () => {
             mensagem: mensagem
         };
         // https://formcarry.com/pricing opção com 50 forms por mês
+        // https://getform.io/f/eapdndna
         axios
-            .post("https://getform.io/f/eapdndna",
+            .post("https://formcarry.com/s/OrPNX3zgt4t",
                 JSON.stringify(formData),
                 {
                     headers: {
