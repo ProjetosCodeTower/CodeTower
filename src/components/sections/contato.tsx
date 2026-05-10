@@ -101,7 +101,7 @@ export const Contato = () => {
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Telefone</p>
-                    <p className="font-light">(62)99953-5210</p>
+                    <p className="font-light">(19) 99730-3641</p>
                 </div>
                 <div className="space-y-2">
                     <p className="font-semibold tracking-wide text-primary">Email</p>
