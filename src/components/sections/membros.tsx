@@ -16,15 +16,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-secondary">Presidente</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Carlos Curcino</p>
+                        <p>Davi J. Nunes</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/carlos.curcino/" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/davij_nunes/" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/carloscurcino" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/davi-josé-nunes-82b82b367?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -36,15 +36,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-primary">Vice-presidente</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Heitor Barreto</p>
+                        <p>Caio César</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/heitor_brrt" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/caiocesar.sifuentes/" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/code-tower-ej" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/caiosifuentes" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -56,15 +56,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-tertiary">Adm Financeiro</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Vinicius Oliveira</p>
+                        <p>Gabriel Nogueira</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/codetower.ej" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/biel.rlk01?igsh=MWlhbHN5MHBlYnMyaQ==" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/vinicius-oliveira-lopes-409881298" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -76,15 +76,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-quaternary">Gestão de Pessoas</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Caios Sifuentes</p>
+                        <p>Rodrigo C. Diolindo</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/caioc_sifuentes" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/drigo_diolindo?igsh=MTJtdXdncWdqcjRkcg==" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/caio-césar-sifuentes-barcelos-1bb15a248" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rodrigo-diolindo-6aa731376" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -96,15 +96,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-blue-800">Marketing</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Elian Magno</p>
+                        <p>Raiff T. Batista</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/elianmagno" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/raiff_gabriel_tb/" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/elianmagno/" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://br.linkedin.com/in/raiff-gabriel-teixeira-batista-85a224286" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -116,7 +116,7 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-red-500">Comercial</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Pattric Vintter</p>
+                        <p>Wallace Jesus</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
@@ -124,7 +124,7 @@ export const Membros = () => {
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/pattric-faria-688197271" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
@@ -136,15 +136,15 @@ export const Membros = () => {
                         <CardTitle className="text-sm font-bold uppercase text-gray-600">Projetos</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p>Victor Correa</p>
+                        <p>Guilherme do Vale</p>
                     </CardContent>
                     <CardFooter>
                         <div className="flex gap-x-2">
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/codetower.ej" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/gvf1015/" className="text-lg hover:text-secondary">
                                 <InstagramLogo size={18} />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/joão-vitor-oliveira-corrêa-2b706020a" className="text-lg hover:text-secondary">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/guilherme-do-vale-fl%C3%A1vio-894154205/" className="text-lg hover:text-secondary">
                                 <LinkedinLogo size={18} />
                                 <span className="sr-only">LinkedIn</span></a>
                         </div>
