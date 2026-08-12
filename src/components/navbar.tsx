@@ -25,22 +25,25 @@ export const Navbar = () => {
                 </a>
                 <ul className='hidden lg:flex items-center justify-between gap-4'>
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="/#home">Home</a>
                     </li>
                     <li>
-                        <a href="#servicos">Serviços</a>
+                        <a href="/processo-seletivo" className='font-semibold text-primary hover:opacity-80'>Processo Seletivo</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfólio</a>
+                        <a href="/#servicos">Serviços</a>
                     </li>
                     <li>
-                        <a href="#blog">Blog</a>
+                        <a href="/#portfolio">Portfólio</a>
                     </li>
                     <li>
-                        <a href="#sobre">Sobre</a>
+                        <a href="/#blog">Blog</a>
                     </li>
                     <li>
-                        <a href="#contato" className='font-poppins px-3.5 py-2.5 shadow hover:opacity-75 bg-[#292D34] text-white hover:bg-primary rounded-lg'>Contato</a>
+                        <a href="/#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="/#contato" className='font-poppins px-3.5 py-2.5 shadow hover:opacity-75 bg-[#292D34] text-white hover:bg-primary rounded-lg'>Contato</a>
                     </li>
                 </ul>
 
@@ -52,32 +55,37 @@ export const Navbar = () => {
                         <ul className='flex flex-col items-center gap-4 text-xl mt-6'>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#home">Home</a>
+                                    <a href="/#home">Home</a>
                                 </SheetClose>
                             </li>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#servicos">Serviços</a>
+                                    <a href="/processo-seletivo" className='font-semibold text-primary'>Processo Seletivo</a>
                                 </SheetClose>
                             </li>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#portfolio">Portfólio</a>
+                                    <a href="/#servicos">Serviços</a>
                                 </SheetClose>
                             </li>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#blog">Blog</a>
+                                    <a href="/#portfolio">Portfólio</a>
                                 </SheetClose>
                             </li>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#sobre">Sobre</a>
+                                    <a href="/#blog">Blog</a>
                                 </SheetClose>
                             </li>
                             <li>
                                 <SheetClose asChild>
-                                    <a href="#contato" className='font-poppins px-3.5 py-2.5 shadow hover:opacity-75 bg-[#292D34] text-white hover:bg-primary rounded-lg'>Contato</a>
+                                    <a href="/#sobre">Sobre</a>
+                                </SheetClose>
+                            </li>
+                            <li>
+                                <SheetClose asChild>
+                                    <a href="/#contato" className='font-poppins px-3.5 py-2.5 shadow hover:opacity-75 bg-[#292D34] text-white hover:bg-primary rounded-lg'>Contato</a>
                                 </SheetClose>
                             </li>
                         </ul>

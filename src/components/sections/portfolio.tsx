@@ -67,7 +67,9 @@ export const Portfolio = () => {
                                 <span className={`text-xs font-semibold uppercase text-primary text-${colors[index % colors.length]}`}>{project.tipoDeProjeto}</span>
                                 <p className="text-base">{project.nomeDoProjeto}</p>
                                 <span className="text-gray text-xs">{project.descricao}</span>
-                                <a href={project.demoUrl} target='_blank'><Button name='Ver o projeto no ar' title='Ver o projeto no ar' className='text-white font-bold mt-4'>Ver mais</Button></a>
+                                <Button asChild name="Ver o projeto no ar" title="Ver o projeto no ar" className="text-white font-bold mt-4">
+                                    <a href={project.demoUrl} target="_blank" rel="noreferrer">Ver mais</a>
+                                </Button>
                             </div>
                         </div>
                     ))

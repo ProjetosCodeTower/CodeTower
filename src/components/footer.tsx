@@ -33,25 +33,25 @@ export const Footer = () => {
                     <p className='mb-4 text-center text-xl'>Links úteis</p>
                     <ul className='flex flex-col gap-y-2'>
                         <li>
-                            <a href="#">Processo seletivo</a>
+                            <a href="/processo-seletivo" className="hover:text-primary">Processo seletivo</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="/#blog" className="hover:text-primary">Blog</a>
                         </li>
                     </ul>
                 </div>
                 <div className='flex flex-col w-full'>
                     <p className='mb-4 text-center text-xl'>Contato</p>
                     <ul className='flex flex-col gap-y-2'>
-                        <li><a className=' inline-flex items-center font-light hover:text-primary gap-2' target='_blank' href="https://www.instagram.com/codetower.ej/"><Instagram /> Instagram</a></li>
-                        <li><a className=' inline-flex items-center font-light hover:text-primary gap-2' target='_blank' href="https://www.linkedin.com/company/78037320/admin/feed/posts/"><Linkedin /> Linkedin</a></li>
+                        <li><a className=' inline-flex items-center font-light hover:text-primary gap-2' target='_blank' rel="noreferrer" href="https://www.instagram.com/codetower.ej/"><Instagram /> Instagram</a></li>
+                        <li><a className=' inline-flex items-center font-light hover:text-primary gap-2' target='_blank' rel="noreferrer" href="https://www.linkedin.com/company/78037320/admin/feed/posts/"><Linkedin /> Linkedin</a></li>
                         <li><a className=' inline-flex items-center font-light hover:text-primary gap-2' href="mailto:contato@codetower.com.br"><Mail /> Email</a></li>
                     </ul>
                 </div>
             </div>
 
             <div className='text-center mt-8'>
-                <p>Design by <a href="https://www.baraus.dev/" target='_blank'>@Baraus</a></p>
+                <p>Design by <a href="https://www.baraus.dev/" target='_blank' rel="noreferrer">@Baraus</a></p>
                 <p>Copyright © {year}, Code Tower</p>
             </div>
         </footer>

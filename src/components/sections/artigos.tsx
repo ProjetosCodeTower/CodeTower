@@ -11,7 +11,7 @@ export const Artigos = () => {
     const [blogs, setBlogs] = useState<Blog[]>([])
 
     useEffect(() => {
-        axios.get("https://dev.to/api/articles?username=codetower&per_page=1000&per_page=3").then((response) => {
+        axios.get("https://dev.to/api/articles?username=codetower&per_page=3").then((response) => {
             // Limitando a 3 ultimas postagens
             setBlogs(response.data)
         }).catch((error) => console.error(error));
@@ -46,17 +46,17 @@ export const Artigos = () => {
             <div data-aos="zoom-in" className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 items-stretch justify-center px-8">
                 {blogs.length > 0 ? (
                     blogs.map((blog) => (
-                        <a key={blog.id} href={blog.url} target="_blank">
+                        <a key={blog.id} href={blog.url} target="_blank" rel="noreferrer">
                             <Card className="border-none flex-1 h-full flex flex-col justify-between">
                                 <CardHeader>
-                                    <Image loading='lazy' width={0} height={0} sizes='100vw' className="mb-4 h-[290px] rounded-md w-full object-cover lg:h-48" src={blog.cover_image ?? "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} title={blog.title} alt={"Artigo: " + blog.title} />
+                                    <Image loading="lazy" width={0} height={0} sizes="100vw" className="mb-4 h-[290px] rounded-md w-full object-cover lg:h-48" src={blog.cover_image ?? "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} title={blog.title} alt={"Artigo: " + blog.title} />
                                     <CardTitle className="text-sm font-bold uppercase text-primary">{blog.title}</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className='text-justify'>{blog.description}</p>
+                                    <p className="text-justify">{blog.description}</p>
                                 </CardContent>
-                                <CardFooter className='flex justify-between items-center pb-2'>
-                                    <div className='flex items-center justify-center gap-1'>
+                                <CardFooter className="flex justify-between items-center pb-2">
+                                    <div className="flex items-center justify-center gap-1">
                                         <Avatar>
                                             <AvatarImage src={blog.user.profile_image} alt={`Foto do autor do blog: ${blog.user.name}`} />
                                             <AvatarFallback>{getInitials(blog.user.name)}</AvatarFallback>
@@ -70,11 +70,13 @@ export const Artigos = () => {
                         </a>
                     ))
                 ) : (
-                    <p className='w-full text-center'>Não há postagens ainda.</p>
+                    <p className="w-full text-center">Não há postagens ainda.</p>
                 )}
             </div>
             {blogs.length > 0 && (
-                <a href="https://dev.to/codetower" target='_blank'><Button name='Ler mais artigos' title='Ler mais artigos' className='text-white font-bold mt-12'>Ler mais</Button></a>
+                <Button asChild name="Ler mais artigos" title="Ler mais artigos" className="text-white font-bold mt-12">
+                    <a href="https://dev.to/codetower" target="_blank" rel="noreferrer">Ler mais</a>
+                </Button>
             )}
         </div>
     )

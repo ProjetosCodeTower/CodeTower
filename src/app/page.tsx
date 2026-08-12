@@ -4,6 +4,7 @@ import { Contato } from "@/components/sections/contato";
 import { Hero } from "@/components/sections/home-hero";
 import { Membros } from "@/components/sections/membros";
 import { Portfolio } from "@/components/sections/portfolio";
+import { ProcessoSeletivoDestaque } from "@/components/sections/processo-seletivo-destaque";
 import { Servicos } from "@/components/sections/servicos";
 import { Sobre } from "@/components/sections/sobre";
 import React, { useEffect } from 'react';
@@ -20,7 +21,10 @@ export default function Home() {
       <section data-aos="fade-in" id="home" className="h-screen flex flex-col items-center justify-center">
         <Hero />
       </section>
-      <section id="servicos" className="-mt-8 lg:-mt-16 pt-32 flex items-center justify-start">
+      <section id="processo-seletivo" className="-mt-4 pt-8 pb-8 lg:-mt-10 lg:pt-12">
+        <ProcessoSeletivoDestaque />
+      </section>
+      <section id="servicos" className="pt-24 flex items-center justify-start lg:pt-28">
         <Servicos />
       </section>
       <section id="portfolio" className="py-28 bg-[url('/Background.svg')] bg-cover">
