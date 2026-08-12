@@ -14,16 +14,18 @@ export const ProcessoSeletivoDestaque = () => {
                 className="overflow-hidden border-none bg-dark text-white shadow-lg [box-shadow:0_0_100px_#00000014,0_1px_3px_#00000014]"
             >
                 <div className="grid grid-cols-1 items-stretch lg:grid-cols-2">
-                    <div className="relative min-h-[260px] w-full lg:min-h-full">
-                        <Image
-                            src={ps.banner}
-                            alt="Processo Seletivo Code Tower 2026.1 — Inscrições abertas"
-                            title="Processo Seletivo Code Tower 2026.1"
-                            fill
-                            sizes="(max-width: 1024px) 100vw, 50vw"
-                            className="object-cover"
-                            priority
-                        />
+                    <div className="relative flex min-h-[320px] w-full items-center justify-center bg-gradient-to-br from-[#0a1020] via-[#152a5e] to-[#407bff]/40 p-6 lg:min-h-full">
+                        <div className="relative aspect-square w-full max-w-[360px]">
+                            <Image
+                                src={ps.banner}
+                                alt="Processo Seletivo Code Tower 2026.1 — Inscrições abertas"
+                                title="Processo Seletivo Code Tower 2026.1"
+                                fill
+                                sizes="(max-width: 1024px) 90vw, 360px"
+                                className="object-contain drop-shadow-[0_0_35px_rgba(64,123,255,0.35)]"
+                                priority
+                            />
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-between p-6 md:p-8">

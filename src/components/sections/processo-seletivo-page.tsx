@@ -25,57 +25,75 @@ export const ProcessoSeletivoPageContent = () => {
 
     return (
         <main className="overflow-hidden pt-24">
-            <section className="relative isolate min-h-[70vh] w-full overflow-hidden bg-dark">
+            <section className="relative isolate w-full overflow-hidden bg-[#0a1020]">
                 <Image
                     src={ps.banner}
-                    alt="Processo Seletivo Code Tower 2026.1 — Aberto"
-                    title="Processo Seletivo Code Tower 2026.1"
+                    alt=""
+                    aria-hidden
                     fill
                     priority
                     sizes="100vw"
-                    className="object-cover object-center opacity-55"
+                    className="scale-125 object-cover object-right opacity-40 blur-2xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/80 to-dark/40" />
-                <div className="container relative z-10 flex min-h-[70vh] flex-col justify-center px-4 py-16 text-white">
-                    <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
-                        Code Tower · IFG Anápolis
-                    </p>
-                    <h1 className="max-w-3xl text-4xl font-bold uppercase leading-tight md:text-6xl">
-                        Processo Seletivo{" "}
-                        <span className="text-primary">{ps.edicao}</span>
-                    </h1>
-                    <p className="mt-4 max-w-xl text-xl text-white/90">{ps.slogan}</p>
-                    <p className="mt-2 max-w-xl text-white/70">{ps.subtitulo}</p>
-                    <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                        <Button asChild className="bg-primary font-bold text-white hover:bg-primary/90">
-                            <a href={ps.formUrl} target="_blank" rel="noreferrer">
-                                Inscrever-se agora
-                            </a>
-                        </Button>
-                        <Button
-                            asChild
-                            variant="outline"
-                            className="border-white/40 bg-transparent font-bold text-white hover:bg-white/10 hover:text-white"
-                        >
-                            <a href={ps.editalPdf} target="_blank" rel="noreferrer">
-                                <ExternalLink size={16} className="mr-2" />
-                                Visualizar edital
-                            </a>
-                        </Button>
-                        <Button
-                            asChild
-                            variant="outline"
-                            className="border-white/40 bg-transparent font-bold text-white hover:bg-white/10 hover:text-white"
-                        >
-                            <a href={ps.editalPdf} download>
-                                <Download size={16} className="mr-2" />
-                                Baixar edital (PDF)
-                            </a>
-                        </Button>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0a1020] via-[#152a5e]/90 to-[#407bff]/35" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_45%,rgba(64,123,255,0.38),transparent_62%)]" />
+
+                <div className="container relative z-10 grid grid-cols-1 items-center gap-12 px-4 py-16 lg:grid-cols-2 lg:py-24">
+                    <div className="order-2 text-white lg:order-1">
+                        <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#8fb4ff]">
+                            Code Tower · IFG Anápolis
+                        </p>
+                        <h1 className="text-4xl font-bold uppercase leading-tight md:text-5xl xl:text-6xl">
+                            Processo Seletivo{" "}
+                            <span className="text-[#8fb4ff]">{ps.edicao}</span>
+                        </h1>
+                        <p className="mt-4 text-xl text-white/90">{ps.slogan}</p>
+                        <p className="mt-2 text-white/70">{ps.subtitulo}</p>
+                        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                            <Button asChild className="bg-primary font-bold text-white hover:bg-primary/90">
+                                <a href={ps.formUrl} target="_blank" rel="noreferrer">
+                                    Inscrever-se agora
+                                </a>
+                            </Button>
+                            <Button
+                                asChild
+                                variant="outline"
+                                className="border-white/40 bg-transparent font-bold text-white hover:bg-white/10 hover:text-white"
+                            >
+                                <a href={ps.editalPdf} target="_blank" rel="noreferrer">
+                                    <ExternalLink size={16} className="mr-2" />
+                                    Visualizar edital
+                                </a>
+                            </Button>
+                            <Button
+                                asChild
+                                variant="outline"
+                                className="border-white/40 bg-transparent font-bold text-white hover:bg-white/10 hover:text-white"
+                            >
+                                <a href={ps.editalPdf} download>
+                                    <Download size={16} className="mr-2" />
+                                    Baixar edital (PDF)
+                                </a>
+                            </Button>
+                        </div>
+                        <p className="mt-6 text-sm text-white/70">
+                            Inscrições abertas até <strong className="text-white">{ps.inscricaoAte}</strong>
+                        </p>
                     </div>
-                    <p className="mt-6 text-sm text-white/70">
-                        Inscrições abertas até <strong className="text-white">{ps.inscricaoAte}</strong>
-                    </p>
+
+                    <div className="order-1 lg:order-2" data-aos="zoom-in">
+                        <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-2xl ring-1 ring-white/20 shadow-[0_0_80px_rgba(64,123,255,0.35)] lg:max-w-[480px]">
+                            <Image
+                                src={ps.banner}
+                                alt="Arte do Processo Seletivo Code Tower 2026.1 com a torre da Code Tower"
+                                title="Processo Seletivo Code Tower 2026.1"
+                                fill
+                                priority
+                                sizes="(max-width: 1024px) 90vw, 480px"
+                                className="object-contain"
+                            />
+                        </div>
+                    </div>
                 </div>
             </section>
 

@@ -5,7 +5,8 @@ export const PROCESSO_SELETIVO = {
   subtitulo: "Faça parte da Empresa Júnior do IFG.",
   publicacao: "17 de agosto de 2026",
   inscricaoAte: "28 de agosto de 2026, às 23h59",
-  formUrl: "https://forms.gle/SBPF9M1wp8uj5EZy6",
+  formUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdG5xW40EAmOlPImBgaf34rpR-NBKYrIpS-ZWNksaKUhYIEeg/viewform",
   editalPdf: "/processo-seletivo/edital-2026.1.pdf",
   editalDocx: "/processo-seletivo/edital-2026.1.docx",
   banner: "/processo-seletivo/banner.jpg",
